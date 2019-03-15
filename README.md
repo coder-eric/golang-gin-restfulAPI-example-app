@@ -58,3 +58,6 @@
                 └── validators.go   // 当前模块的验证器
     
 ```
+
+## 联系作者
+<img src="qrcode.jpg" width="300" align=center alt="微信：wuhe52"/>
