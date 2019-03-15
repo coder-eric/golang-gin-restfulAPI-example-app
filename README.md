@@ -2,7 +2,7 @@
 
 
 
-一个基于Gin的restfulApi的例子.
+> 一个用go语言基于Gin写的restful风格api服务程序的例子.
 
 ## 项目特性
 - 基于Gin
