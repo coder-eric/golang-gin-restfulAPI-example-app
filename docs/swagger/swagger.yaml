@@ -1,0 +1,41 @@
+basePath: /v2
+host: petstore.swagger.io
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: yottachain 的API接口.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: yottachain API
+  version: "1.0"
+paths:
+  /api/v1/tags:
+    post:
+      parameters:
+      - description: Name
+        in: body
+        name: name
+        required: true
+        schema:
+          type: object
+      - description: State
+        in: body
+        name: state
+        schema:
+          type: object
+      - description: CreatedBy
+        in: body
+        name: created_by
+        schema:
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200": {}
+        "500": {}
+      summary: 用户注册
+swagger: "2.0"

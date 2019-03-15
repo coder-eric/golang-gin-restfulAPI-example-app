@@ -1,0 +1,7 @@
+package: mining-machine-manage
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.3.0
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson

@@ -1,0 +1,5 @@
+p, admin, /*, (GET|POST|PUT|DELETE)
+p, user, /*, (GET|POST|PUT|DELETE)
+p, common, /login, POST
+p, common, /register, POST
+p, common, /*, (GET|POST|PUT|DELETE)
