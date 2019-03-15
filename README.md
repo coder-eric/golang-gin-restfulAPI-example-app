@@ -5,15 +5,15 @@
 > 一个用go语言基于Gin写的restful风格api服务程序的例子.
 
 ## 项目特性
-- 基于Gin
-- 使用MongoDB
-- gin-jwt权限验证
-- gin-sessions
-- gin-authz从session里取用户的角色进行权限管理
-- 使用gin-swagger自动生成api文档
-- 将gin默认的validator.v8升级到validator.v9
-- 使用casbin权限管理
-- 使用go-ini读写配置文件
+- 基于[gin](https://github.com/gin-gonic/gin)
+- 使用[MongoDB](https://github.com/mongodb/mongo)数据库
+- [gin-jwt](https://github.com/appleboy/gin-jwt)权限验证
+- [gin-sessions](https://github.com/gin-contrib/sessions)
+- [gin-authz](https://github.com/gin-contrib/authz)从session里取用户的角色进行权限管理
+- 使用[gin-swagger](https://github.com/swaggo/gin-swagger)自动生成api文档
+- 将gin默认的validator.v8升级到[validator.v9](https://github.com/go-playground/validator)
+- 使用[casbin](https://github.com/casbin/casbin)权限管理
+- 使用[go-ini](https://github.com/go-ini/ini)读写配置文件
 
 ## 项目目录
 ```
