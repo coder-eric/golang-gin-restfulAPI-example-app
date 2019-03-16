@@ -44,6 +44,7 @@
     ├── routers.go                  // 路由初始化
     └── api                         // api文件
         └── v1                      // api版本v1
+            ├── v1.go               // v1版本api入口
             ├── mining-machine      // 矿机模块
             |   ├── models.go       // 模型和数据库操作
             |   ├── controlers.go   // 当前模块的控制器
